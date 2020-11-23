@@ -1,0 +1,17 @@
+.slick-prev {
+    left: 0 !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 0 !important;
+    z-index: 1;
+  }
+
+  .slick-prev:before, .slick-next:before { 
+      font-family: "slick";
+      font-size: 20px;
+      line-height: 1;
+      color: black;
+      opacity: 0.8;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
